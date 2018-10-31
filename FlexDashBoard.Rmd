@@ -25,11 +25,15 @@ plot_ly(x = ~order_dow, y = ~order_hour_of_day, type = "scatter", mode = "marker
 ```
 
 ```{r}
-## Bargraph
+## Bargraph of Number of Items Ordered per Department
+x <- list(title = "Department")
+y <- list(title = "Amount of Items Ordered")
 instacart %>%
   count(department) %>% 
   mutate(department = fct_reorder(department, n)) %>% 
-  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar") 
+  rename(amount = n) %>%
+  plot_ly(x = ~department, y = ~amount, color = ~department, type = "bar") %>%
+  layout(xaxis = x, yaxis = y)
 ```
 
 

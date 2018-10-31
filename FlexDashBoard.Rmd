@@ -1,11 +1,12 @@
 ---
-title: "Untitled"
+title: "Instacart Plots"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
 ---
-```{r Library Setup}
+
+```{r Library Setup, include=FALSE}
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
@@ -22,7 +23,10 @@ clean_names(instacart)
 ```
 Column {data-width=650}
 -----------------------------------------------------------------------
-```{r Violin Plot }
+
+### Chart A
+
+```{r Violin Plot}
 instacart %>%
   group_by(order_dow, order_hour_of_day) %>%
   plot_ly(x = ~order_dow, y = ~order_hour_of_day,
@@ -33,14 +37,19 @@ instacart %>%
   layout(xaxis = list(title = "Day of the Week"),
     yaxis = list(title = "Hour of Day Order Made",zeroline = F))
 ```
+
 Column {data-width=350}
 -----------------------------------------------------------------------
+
+### Chart B
+
 ```{r Days Since Prior Order and Department}
 instacart %>%
-##  group_by(days_since_prior_order, department) 
   mutate(department = fct_reorder(department, days_since_prior_order)) %>%
   plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "Set2")
 ```
+
+### Chart C
 
 ```{r}
 ## Bargraph of Number of Items Ordered per Department

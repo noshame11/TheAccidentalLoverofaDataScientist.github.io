@@ -24,9 +24,9 @@ clean_names(instacart)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Chart A - Violin Plot Analysis of What Time Orders are Made During Each Day of the Week
 
-```{r Violin Plot}
+```{r Violin Plot Orders at Hour of the Day and Day of the Week}
 instacart %>%
   group_by(order_dow, order_hour_of_day) %>%
   plot_ly(x = ~order_dow, y = ~order_hour_of_day,
@@ -41,20 +41,22 @@ instacart %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Chart B - Box Plot Analysis of Days Since Prior Order per Department
 
-```{r Days Since Prior Order and Department}
+```{r Boxplot Days Since Prior Order and Department}
 instacart %>%
   mutate(department = fct_reorder(department, days_since_prior_order)) %>%
-  plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "Set2")
+  plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "Set2") %>%
+  layout(xaxis = list(title = "Department"),
+    yaxis = list(title = "Days Since Prior Order",zeroline = F))
 ```
 
-### Chart C
+### Chart C - Bar Graph of Number of Items Ordered per Department
 
 ```{r}
-## Bargraph of Number of Items Ordered per Department
+## Bargraph Number of Items Ordered per Department
 x <- list(title = "Department")
-y <- list(title = "Amount of Items Ordered")
+y <- list(title = "Amount of Items")
 instacart %>%
   count(department) %>% 
   mutate(department = fct_reorder(department, n)) %>% 

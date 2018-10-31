@@ -1,7 +1,28 @@
 ---
 title: "Holy Dieties!"
 ---
+```{r Library Setup}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+library(dplyr)
+library(rnoaa)
+library(janitor)
+```
+```{r Read and Clean Data}
+set.seed(12345)
+data("instacart")
+instacart %>%
+  clean_names() %>%
+  group_by(aisle_id) %>%
+  summarize(n = n()) %>%
+##  mutate(aisle_id = forcats::fct_reorder(as.factor(aisle_id), n)) 
+plot_ly(x = ~aisle_id, y = ~n, type = "scatter", mode = "markers",
+          alpha = 0.5, 
+          color = ~n,
+          text = ~"Number of Items")
+```
 
 ### I am not completely struggling through this!
 
-And I can put all kinds of stuff on it!

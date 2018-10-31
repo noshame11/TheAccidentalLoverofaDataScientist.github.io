@@ -35,6 +35,13 @@ instacart %>%
 ```
 Column {data-width=350}
 -----------------------------------------------------------------------
+```{r Days Since Prior Order and Department}
+instacart %>%
+##  group_by(days_since_prior_order, department) 
+  mutate(department = fct_reorder(department, days_since_prior_order)) %>%
+  plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "Set2")
+```
+
 ```{r}
 ## Bargraph of Number of Items Ordered per Department
 x <- list(title = "Department")
@@ -46,7 +53,3 @@ instacart %>%
   plot_ly(x = ~department, y = ~amount, color = ~department, type = "bar") %>%
   layout(xaxis = x, yaxis = y)
 ```
-
-
-### I am not completely struggling through this!
-

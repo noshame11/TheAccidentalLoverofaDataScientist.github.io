@@ -13,17 +13,22 @@ library(janitor)
 ```{r Read and Clean Data, warning = FALSE}
 set.seed(12345)
 data("instacart")
-## Boxplot
-instacart %>%
-  clean_names() %>%
-  group_by(order_dow, order_hour_of_day) %>%
-  summarize(n = n()) %>%
-##  mutate(aisle_id = forcats::fct_reorder(as.factor(aisle_id), n)) 
-plot_ly(x = ~order_dow, y = ~order_hour_of_day, type = "scatter", mode = "markers",
-          alpha = 0.5,
-          color = ~order_dow)
+clean_names(instacart)
+colnames(instacart)
+class(instacart$order_dow)
+instacart$order_dow
 ```
-
+```{r Violin Plot }
+instacart %>%
+  group_by(order_dow, order_hour_of_day) %>%
+  plot_ly(x = ~order_dow, y = ~order_hour_of_day,
+    split = ~order_dow,
+    type = 'violin',
+    box = list(visible = T),
+    meanline = list(visible = T)) %>% 
+  layout(xaxis = list(title = "Day of the Week"),
+    yaxis = list(title = "Hour of Day Order Made",zeroline = F))
+```
 ```{r}
 ## Bargraph of Number of Items Ordered per Department
 x <- list(title = "Department")

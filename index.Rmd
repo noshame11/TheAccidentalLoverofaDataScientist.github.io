@@ -19,19 +19,19 @@ You might be wondering about the webpage title, "The Accidental Lover of a Data 
 
 Although passionate about science, I believe that scientists should be well-rounded individuals that can appreciate other aspects of life. I have always admired writers, painters, and other creative artists that can inspire and easily communicate their message to the masses. I minored in East Asian Studies and developed a small taste for the beauty of Chinese poems, not only for the aesthetics of the written characters but also for the expert use of words and phrasing. My choice in poems stem from my experiences and how relatable the pieces are to my life. "Life Imitates Art and Art Imitates Life", they give me comfort in knowing that I am not alone in my despairs and will see myself through them. For a further practical standpoint, reading poetry has improved my humble Chinese vocabulary immensely. So, please feel free to enjoy a sampling of Chinese poems for philosophical and educational purposes.   
   
-邶風擊鼓              |  North Wind and Beating Drums (rough translation)
---------------------- | -------------
-擊鼓其鏜，踴躍用兵。  |
-土國城漕，我獨南行。  | xyz
-從孙子仲，平陳與宋。  |    | Content Cell
-不我以歸，憂心有忡。  |
-爰居爰處，爰喪其馬，  |
-于以求之，于林之下。  |
-死生契闊，與子成說。  |
-執子之手，與子偕老。  |
-于嗟阔兮，不我活兮。  |
-于嗟洵兮，不我信兮。  |  
-- Anonymous, Spring & Autumn Periods
+邶風擊鼓            |  North Wind and Beating Drums (rough translation)
+--------------------| -------------
+擊鼓其鏜，踴躍用兵。| The sound of beating drums, activates the army
+土國城漕，我獨南行。| Earthen walls surround the city, Alone I head south
+從孙子仲，平陳與宋。| Following Sun Tzu, to battle the Chen and Song    
+不我以歸，憂心有忡。| I cannot return home, my heavy heart is pained
+爰居爰處，爰喪其馬。| Where do we make our camp, where do I mourn my warhorse
+于以求之，于林之下。| Where can I find it, it is buried in the grove
+死生契闊，與子成說。| Bound by oath in life or death, we both have sworn
+執子之手，與子偕老。| Offer me your hand and I will hold it, and live with me until we grow old
+于嗟阔兮，不我活兮。| My wife has long departed, will I live with this broken heart
+于嗟洵兮，不我信兮。| The oath we swore, cannot be kept 
+- Anonymous (Book of Songs), Spring & Autumn Periods
 
 君生我未生              |  I Was Not When You Were Born
 ------------------------|--------------------------------

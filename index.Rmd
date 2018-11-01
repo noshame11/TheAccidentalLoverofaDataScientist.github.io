@@ -1,31 +1,40 @@
 ---
-title: "Holy Dieties!"
+title: "Welcome and a Little about Me"
+author: "Vincent Tam"
+date: "November 1, 2018"
+output: html_document
 ---
+---
+title: "Habits"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+I am by no means a data scientist but am simply an MS Toxicology student expanding his skill set to obtain a better grasp of the knowledge out there. As a message for future neophytes learning to master the language of R, don't despair. The tools are here for learning. Simply keep trying and practice.  
 
-### I am not completely struggling through this!
+You might be wondering about the webpage title, "The Accidental Lover of a Data Scientist". To tell you the truth, I was on the fence about learning programming since it is a time-consuming endeavour for a busy Columbia student. Although R is a much-coveted skill, it was the desire to grow closer and better understand the frustrations of a distractingly cute, budding data scientist that sealed the deal for me. So the language of R in this case, is partially a love story of boy chasing girl, but awkwardly doing it, in his stumbling and accidental ways. Happy ending? All I can say, it's like me learning how to program, there's a steep learning curve.  
 
-擊鼓其鏜，踴躍用兵。
-土國城漕，我獨南行。
+Although passionate about science, I believe that scientists should be well-rounded individuals that can appreciate other aspects of life. I have always admired writers, painters, and other creative artists that can inspire and easily communicate their message to the masses. 
 
-從孙子仲，平陳與宋。
-不我以歸，憂心有忡。
-
-爰居爰處，爰喪其馬，
-于以求之，于林之下。
-
-死生契闊，與子成說。
-執子之手，與子偕老。
-
-于嗟阔兮，不我活兮。
+擊鼓其鏜，踴躍用兵。  
+土國城漕，我獨南行。  
+從孙子仲，平陳與宋。  
+不我以歸，憂心有忡。  
+爰居爰處，爰喪其馬，  
+于以求之，于林之下。  
+死生契闊，與子成說。  
+執子之手，與子偕老。  
+于嗟阔兮，不我活兮。  
 于嗟洵兮，不我信兮。    
 
 
 
-君生我未生，我生君已老。
-君恨我生遲，我恨君生早。
-君生我未生，我生君已老。
-恨不生同時，日日與君好。
-我生君未生，君生我已老。
-我離君天涯，君隔我海角。
-我生君未生，君生我已老。
+君生我未生，我生君已老。  
+君恨我生遲，我恨君生早。  
+君生我未生，我生君已老。  
+恨不生同時，日日與君好。  
+我生君未生，君生我已老。  
+我離君天涯，君隔我海角。  
+我生君未生，君生我已老。  
 化蝶去尋花，夜夜棲芳草。

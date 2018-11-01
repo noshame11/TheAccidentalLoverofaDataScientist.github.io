@@ -1,13 +1,14 @@
 ---
 title: "Resume"
 ---
-Vincent Tam
-Education
+## Vincent Tam  
+### Education  
 Columbia University, Mailman School of Public Health, New York, NY Expected Graduation Oct 2019
 MS in Environmental Toxicology, GPA 3.8/4.0
 Columbia University, School of General Studies, New York, NY May 2017 Bachelor of Arts, Biology, GPA 3.6/4.0
-Dean’s List: 3 Semesters
-Professional Experience
+Dean’s List: 4 Semesters
+
+### Professional Experience  
 Air Pollution Research Assistant June 2018 - Present
 Columbia University Mailman School of Public Health, New York, NY
  Installed equipment to gather data relevant to environmental pollution in NYC neighborhoods
@@ -29,7 +30,8 @@ Ornithology Fellow and Volunteer May 2014 – April 2016
 Bronx Zoo Ornithology Department, New York, NY
  Conducted husbandry duties and maintenance for the safety and comfort of birds numbering in the hundreds
  Led information talks with visitors about the importance of avian conservation and protection of environment to humans
-Activities
+
+### Activities
 NY Strangers Sports Association April 2010 - Present
  Serving as a volleyball coach and mentor to children while leading the organization in community-service events
 Equity Trading and Investing May 2011 - Present
@@ -42,7 +44,7 @@ Honeybee Bio-Indicator Research May 2018 - Present
  Researching feasibility of domestic apiaries in an urban setting as indicators of environmental toxins
 Columbia University Clubs and Organizations Jan 2013 – Present
  Financial Engineering, One Health Initiative, Pre-Vet, Consulting, Archery
-Languages and Skills
+### Languages and Skills  
 Languages
  English (Native Proficiency); Cantonese (Limited Working Proficiency); Mandarin (Limited Working Proficiency)
 Computer Skills

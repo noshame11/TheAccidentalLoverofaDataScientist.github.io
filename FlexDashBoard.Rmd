@@ -6,7 +6,7 @@ output:
     vertical_layout: fill
 ---
 
-```{r Library Setup, include=FALSE}
+```{r Library Setup, include=FALSE, echo = FALSE, warning = FALSE}
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
@@ -16,17 +16,17 @@ library(rnoaa)
 library(janitor)
 library(flexdashboard)
 ```
-```{r Read and Clean Data, include = FALSE, warning = FALSE}
+```{r Read and Clean Data and Set Plot Font, include = FALSE, warning = FALSE}
 set.seed(12345)
 data("instacart")
 clean_names(instacart)
 ```
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Chart A - Violin Plot Analysis of What Time Orders are Made During Each Day of the Week
 
-```{r Violin Plot Orders at Hour of the Day and Day of the Week}
+```{r Violin Plot Orders at Hour of the Day and Day of the Week, echo = FALSE}
 instacart %>%
   group_by(order_dow, order_hour_of_day) %>%
   plot_ly(x = ~order_dow, y = ~order_hour_of_day,
@@ -38,23 +38,21 @@ instacart %>%
     yaxis = list(title = "Hour of Day Order Made",zeroline = F))
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Chart B - Box Plot Analysis of Days Since Prior Order per Department
 
-```{r Boxplot Days Since Prior Order and Department}
+```{r Boxplot Days Since Prior Order and Department, echo = FALSE}
 instacart %>%
   mutate(department = fct_reorder(department, days_since_prior_order)) %>%
   plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "Set2") %>%
-  layout(xaxis = list(title = "Department"),
-    yaxis = list(title = "Days Since Prior Order",zeroline = F))
+  layout(yaxis = list(title = "Days Since Last Order",zeroline = F))
 ```
 
 ### Chart C - Bar Graph of Number of Items Ordered per Department
 
-```{r}
-## Bargraph Number of Items Ordered per Department
+```{r Bar Graph of Number of Items Ordered per Department, echo = FALSE, warning = FALSE}
 x <- list(title = "Department")
 y <- list(title = "Amount of Items")
 instacart %>%

@@ -17,7 +17,7 @@ You might be wondering about the webpage title, "The Accidental Lover of a Data 
 
 Although passionate about science, I believe that scientists should be well-rounded individuals that can appreciate other aspects of life. I have always admired writers, painters, and other creative artists that can inspire and easily communicate their message to the masses. I minored in East Asian Studies and developed a small taste for the beauty of Chinese poems, not only for the aesthetics of the written characters but also for the expert use of words and phrasing. My choice in poems stem from my experiences and how relatable the pieces are to my life. "Life Imitates Art and Art Imitates Life", they give me comfort in knowing that I am not alone in my despairs and will see myself through them. For a further practical standpoint, reading poetry has improved my humble Chinese vocabulary immensely. So, please feel free to enjoy a sampling of Chinese poems for philisophical and educational purposes.   
   
-邶風擊鼓              |North Wind and Beating Drums (rough translation)
+邶風擊鼓              |  North Wind and Beating Drums (rough translation)
 --------------------- | -------------
 擊鼓其鏜，踴躍用兵。  |
 土國城漕，我獨南行。  | xyz
@@ -31,12 +31,13 @@ Although passionate about science, I believe that scientists should be well-roun
 于嗟洵兮，不我信兮。  |  
 
 
-
-君生我未生，我生君已老。  
-君恨我生遲，我恨君生早。  
-君生我未生，我生君已老。  
-恨不生同時，日日與君好。  
-我生君未生，君生我已老。  
-我離君天涯，君隔我海角。  
-我生君未生，君生我已老。  
-化蝶去尋花，夜夜棲芳草。
+君生我未生              |  I Was Not When You Were Born
+------------------------|--------------------------------
+君生我未生，我生君已老。|  
+君恨我生遲，我恨君生早。|  test
+君生我未生，我生君已老。|  
+恨不生同時，日日與君好。|  
+我生君未生，君生我已老。|  
+我離君天涯，君隔我海角。|  
+我生君未生，君生我已老。|  
+化蝶去尋花，夜夜棲芳草。|

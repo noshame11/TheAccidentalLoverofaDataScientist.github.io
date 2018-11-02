@@ -20,12 +20,13 @@ library(flexdashboard)
 set.seed(12345)
 data("instacart")
 clean_names(instacart)
+t <- list(family = "sans serif", size = 8, color = 'blue')
 ```
+
 Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Chart A - Violin Plot Analysis of What Time Orders are Made During Each Day of the Week
-
 ```{r Violin Plot Orders at Hour of the Day and Day of the Week, echo = FALSE}
 instacart %>%
   group_by(order_dow, order_hour_of_day) %>%
@@ -35,23 +36,22 @@ instacart %>%
     box = list(visible = T),
     meanline = list(visible = T)) %>% 
   layout(xaxis = list(title = "Day of the Week"),
-    yaxis = list(title = "Hour of Day Order Made",zeroline = F))
+    yaxis = list(title = "Hour of Day Order Made",zeroline = F), font = t) 
+  
 ```
 
 Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Chart B - Box Plot Analysis of Days Since Prior Order per Department
-
 ```{r Boxplot Days Since Prior Order and Department, echo = FALSE}
 instacart %>%
   mutate(department = fct_reorder(department, days_since_prior_order)) %>%
   plot_ly(y = ~days_since_prior_order, color = ~department, type = "box", colors = "Set2") %>%
-  layout(yaxis = list(title = "Days Since Last Order",zeroline = F))
+  layout(xaxis = list(title = "Department"), yaxis = list(title = "Days Since Last Order",zeroline = F))
 ```
 
 ### Chart C - Bar Graph of Number of Items Ordered per Department
-
 ```{r Bar Graph of Number of Items Ordered per Department, echo = FALSE, warning = FALSE}
 x <- list(title = "Department")
 y <- list(title = "Amount of Items")

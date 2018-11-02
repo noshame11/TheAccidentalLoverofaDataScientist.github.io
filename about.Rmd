@@ -4,10 +4,7 @@ title: "About"
 
 ### About this site
 
-This website was made in accordance to Homework 4 Instructions as decreed by Professor Jeff Goldsmith through his p8105.com website.
-R Studio Version 1.1.456, was used to build and knit the personal website. 
-The site and its source code is hosted on Github 
+This website was made in accordance to Homework 4 Instructions as decreed by Professor Jeff Goldsmith through his [p8105.com website](p8105.com).
+[R Studio Version 1.1.456](https://www.rstudio.com/products/rstudio/download/), was used to build and knit the personal website. 
+The site and its source code is hosted on [Github](https://github.com/noshame11/TheAccidentalLoverofaDataScientist.github.io). 
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
-
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
